@@ -3,6 +3,7 @@
 This project is an Online Faculty Leave Management System developed with PHP and MySQL, providing a user-friendly, mobile-responsive platform for departments to manage faculties leave applications. Faculty can apply for leave from anywhere, and management can efficiently track and control leave records and privileges.
 
 About the Project
+
 This system supports three types of users with specific access levels:
 
 Admin: Full access to all system features.
@@ -40,29 +41,31 @@ To set up the project on a local server, follow these steps:
 Requirements
 Download and install any local web server, such as XAMPP or WAMP.
 Setup
+
 Start Apache and MySQL:
-
 Open your XAMPP or WAMP Control Panel and start both Apache and MySQL.
-Extract Source Code:
 
+Extract Source Code:
 Download and extract the source code zip file.
 Move Source Code to Server Directory:
 
 If using XAMPP, move the extracted folder to the htdocs directory.
 If using WAMP, move it to the www directory.
-Set Up the Database:
 
+Set Up the Database:
 Open phpMyAdmin in your browser.
 Create a new database named leave_db.
 Import the leave_db.sql file located in the project’s database folder.
-Run the Project:
 
+Run the Project:
 Open the project in your browser at http://localhost/leave_system.
 Default Admin Access Information
+
 Username: admin
 Password: admin123
 Note: Newly created employees will have their Employee ID as their default password.
 
 Usage
+
 Log in as an Admin, Staff, or Faculty based on the level of access you require.
 Explore features such as managing leave records, applying for leave, and generating reports.
