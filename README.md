@@ -65,10 +65,10 @@ Set Up the Database:
 Run the Project:
 
 > Open the project in your browser at http://localhost/leave_system.
-> Default Admin Access Information
 
-Username: admin
+Default Admin Access Information
 
+> Username: admin
 > Password: admin123
 > Note: Newly created employees will have their Employee ID as their default password.
 
